@@ -1,0 +1,1026 @@
+.accordion {
+	background: rgb(255, 255, 255); overflow: hidden;
+}
+.accordion .accordion-header {
+	background: rgb(224, 236, 255); border-top-width: 0px; cursor: pointer;
+}
+.accordion .accordion-header .panel-title {
+	font-weight: normal;
+}
+.accordion .accordion-header-selected .panel-title {
+	font-weight: bold;
+}
+.accordion-noborder .accordion-header {
+	border-width: 0px 0px 1px;
+}
+.accordion-noborder .accordion-body {
+	border-width: 0px;
+}
+.accordion-collapse {
+	background: url("images/accordion_collapse.png") no-repeat;
+}
+.accordion-expand {
+	background: url("images/accordion_expand.png") no-repeat;
+}
+.calendar {
+	background: rgb(255, 255, 255); padding: 1px; border: 1px solid rgb(164, 190, 212); overflow: hidden;
+}
+.calendar-noborder {
+	border: 0px currentColor;
+}
+.calendar-header {
+	background: rgb(224, 236, 255); height: 22px; font-size: 12px; position: relative;
+}
+.calendar-title {
+	height: 22px; text-align: center;
+}
+.calendar-title span {
+	padding: 3px; top: 2px; line-height: 12px; display: inline-block; position: relative; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.calendar-prevmonth {
+	top: 4px; width: 14px; height: 14px; line-height: 12px; font-size: 1px; position: absolute; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.calendar-nextmonth {
+	top: 4px; width: 14px; height: 14px; line-height: 12px; font-size: 1px; position: absolute; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.calendar-prevyear {
+	top: 4px; width: 14px; height: 14px; line-height: 12px; font-size: 1px; position: absolute; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.calendar-nextyear {
+	top: 4px; width: 14px; height: 14px; line-height: 12px; font-size: 1px; position: absolute; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.calendar-prevmonth {
+	background: url("images/calendar_prevmonth.gif") no-repeat 3px 2px; left: 20px;
+}
+.calendar-nextmonth {
+	background: url("images/calendar_nextmonth.gif") no-repeat 3px 2px; right: 20px;
+}
+.calendar-prevyear {
+	background: url("images/calendar_prevyear.gif") no-repeat 1px 2px; left: 3px;
+}
+.calendar-nextyear {
+	background: url("images/calendar_nextyear.gif") no-repeat 1px 2px; right: 3px;
+}
+.calendar-body {
+	font-size: 12px; position: relative;
+}
+.calendar-body table {
+	border: 1px solid rgb(238, 238, 238); width: 100%; height: 100%; font-size: 12px;
+}
+.calendar-body th {
+	text-align: center;
+}
+.calendar-body td {
+	text-align: center;
+}
+.calendar-body th {
+	background: rgb(250, 250, 250); color: rgb(136, 136, 136);
+}
+.calendar-day {
+	border: 1px solid rgb(255, 255, 255); color: rgb(34, 34, 34); cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.calendar-sunday {
+	color: rgb(204, 34, 34);
+}
+.calendar-saturday {
+	color: rgb(0, 238, 0);
+}
+.calendar-today {
+	color: rgb(0, 0, 255);
+}
+.calendar-other-month {
+	opacity: 0.3;
+}
+.calendar-hover {
+	border: 1px solid red;
+}
+.calendar-selected {
+	background: rgb(251, 236, 136); border: 1px solid red;
+}
+.calendar-nav-hover {
+	background-color: rgb(251, 236, 136);
+}
+.calendar-menu {
+	background: rgb(250, 250, 250); padding: 5px; left: 0px; top: 0px; width: 180px; height: 150px; overflow: hidden; font-size: 12px; display: none; position: absolute; opacity: 0.8;
+}
+.calendar-menu-year-inner {
+	text-align: center; padding-bottom: 5px;
+}
+.calendar-menu-year {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); width: 40px; text-align: center; font-weight: bold;
+}
+.calendar-menu-prev {
+	width: 21px; height: 21px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.calendar-menu-next {
+	width: 21px; height: 21px; vertical-align: top; display: inline-block; cursor: pointer;
+}
+.calendar-menu-prev {
+	background: url("images/calendar_prevyear.gif") no-repeat 5px 6px; margin-right: 10px;
+}
+.calendar-menu-next {
+	background: url("images/calendar_nextyear.gif") no-repeat 5px 6px; margin-left: 10px;
+}
+.calendar-menu-hover {
+	background-color: rgb(251, 236, 136);
+}
+.calendar-menu-month-inner table {
+	width: 100%; height: 100%;
+}
+.calendar-menu-month {
+	border: 1px solid rgb(250, 250, 250); text-align: center; color: rgb(102, 102, 102); font-weight: bold; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.combo {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; border: 1px solid rgb(164, 190, 212); font-size: 12px; display: inline-block; white-space: nowrap;
+}
+.combo-text {
+	padding: 0px; border: 0px currentColor; height: 20px; line-height: 20px; font-size: 12px; _height: 18px; _line-height: 18px;
+}
+.combo-arrow {
+	background: url("images/combo_arrow.gif") no-repeat 3px 4px rgb(224, 236, 249); width: 18px; height: 20px; overflow: hidden; vertical-align: top; display: inline-block; cursor: pointer; opacity: 0.6;
+}
+.combo-arrow-hover {
+	opacity: 1;
+}
+.combo-panel {
+	background: rgb(255, 255, 255); overflow: auto;
+}
+.combobox-item {
+	padding: 3px 0px 3px 3px; font-size: 12px;
+}
+.combobox-item-hover {
+	background: rgb(250, 250, 250);
+}
+.combobox-item-selected {
+	background: rgb(251, 236, 136);
+}
+.datagrid .panel-body {
+	overflow: hidden;
+}
+.datagrid-wrap {
+	position: relative;
+}
+.datagrid-view {
+	overflow: hidden; position: relative;
+}
+.datagrid-view1 {
+	left: 0px; top: 0px; overflow: hidden; position: absolute;
+}
+.datagrid-view2 {
+	left: 210px; top: 0px; overflow: hidden; position: absolute;
+}
+.datagrid-mask {
+	background: rgb(204, 204, 204); left: 0px; top: 0px; display: none; position: absolute; opacity: 0.3;
+}
+.datagrid-mask-msg {
+	background: url("images/pagination_loading.gif") no-repeat 5px 10px rgb(255, 255, 255); padding: 12px 5px 10px 30px; border: 2px solid rgb(101, 147, 207); left: 100px; top: 50px; width: auto; height: 16px; color: rgb(34, 34, 34); display: none; position: absolute;
+}
+.datagrid-sort-desc .datagrid-sort-icon {
+	background: url("images/datagrid_sort_desc.gif") no-repeat center; padding: 2px 13px 3px 0px;
+}
+.datagrid-sort-asc .datagrid-sort-icon {
+	background: url("images/datagrid_sort_asc.gif") no-repeat center; padding: 2px 13px 3px 0px;
+}
+.datagrid-toolbar {
+	background: rgb(239, 239, 239); padding: 1px 2px; height: 28px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.datagrid-btn-separator {
+	margin: 2px 1px; height: 24px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left;
+}
+.datagrid-pager {
+	background: rgb(239, 239, 239); border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; position: relative;
+}
+.datagrid-header {
+	background: url("images/datagrid_header_bg.gif") repeat-x left bottom rgb(250, 250, 250); overflow: hidden; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; cursor: default;
+}
+.datagrid-header-inner {
+	width: 10000px; float: left;
+}
+.datagrid-header td {
+	background: url("images/datagrid_header_bg.gif") repeat-x left bottom rgb(250, 250, 250); font-size: 12px; font-weight: normal; border-top-color: rgb(255, 255, 255); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-style: dotted; border-right-style: dotted; border-bottom-style: dotted;
+}
+.datagrid-header td.datagrid-header-over {
+	background: rgb(235, 243, 253);
+}
+.datagrid-header .datagrid-cell {
+	margin: 0px; padding: 3px 4px; text-align: center; overflow: hidden; white-space: nowrap; -ms-word-wrap: normal;
+}
+.datagrid-header .datagrid-cell-group {
+	margin: 0px; padding: 4px 2px 4px 4px; text-align: center; overflow: hidden; white-space: nowrap; -ms-word-wrap: normal;
+}
+.datagrid-header-rownumber {
+	margin: 0px; padding: 3px 0px; width: 25px; text-align: center;
+}
+.datagrid-td-rownumber {
+	background: url("images/datagrid_header_bg.gif") repeat-x left bottom rgb(250, 250, 250);
+}
+.datagrid-cell-rownumber {
+	margin: 0px; padding: 3px 0px; width: 25px; text-align: center; color: rgb(0, 0, 0);
+}
+.datagrid-body {
+	margin: 0px; padding: 0px; overflow: auto; -ms-zoom: 1;
+}
+.datagrid-view1 .datagrid-body-inner {
+	padding-bottom: 20px;
+}
+.datagrid-view1 .datagrid-body {
+	overflow: hidden;
+}
+.datagrid-footer {
+	overflow: hidden;
+}
+.datagrid-footer-inner {
+	width: 10000px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid; float: left;
+}
+.datagrid-body td {
+	margin: 0px; padding: 0px; overflow: hidden; font-size: 12px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: dotted; border-bottom-style: dotted;
+}
+.datagrid-footer td {
+	margin: 0px; padding: 0px; overflow: hidden; font-size: 12px; border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-right-width: 1px; border-bottom-width: 1px; border-right-style: dotted; border-bottom-style: dotted;
+}
+.datagrid-body .datagrid-cell {
+	margin: 0px; padding: 0px 4px; height: 18px; line-height: 18px; overflow: hidden; white-space: nowrap; -ms-word-wrap: normal;
+}
+.datagrid-footer .datagrid-cell {
+	margin: 0px; padding: 0px 4px; height: 18px; line-height: 18px; overflow: hidden; white-space: nowrap; -ms-word-wrap: normal;
+}
+.datagrid-row-editing .datagrid-cell {
+	height: auto;
+}
+.datagrid-header-check {
+	padding: 3px 6px;
+}
+.datagrid-cell-check {
+	padding: 3px 6px; overflow: hidden; font-size: 1px;
+}
+.datagrid-header-check input {
+	margin: 0px; padding: 0px; width: 15px; height: 15px;
+}
+.datagrid-cell-check input {
+	margin: 0px; padding: 0px; width: 15px; height: 15px;
+}
+.datagrid-row {
+	height: 25px;
+}
+.datagrid-row-collapse {
+	background: url("images/datagrid_row_collapse.gif") no-repeat center;
+}
+.datagrid-row-expand {
+	background: url("images/datagrid_row_expand.gif") no-repeat center;
+}
+.datagrid-row-alt {
+	background: rgb(238, 238, 255);
+}
+.datagrid-row-over {
+	background: rgb(208, 229, 245); cursor: default;
+}
+.datagrid-row-selected {
+	background: rgb(251, 236, 136);
+}
+.datagrid-resize-proxy {
+	background: red; top: 0px; width: 1px; height: 10000px; display: none; position: absolute; cursor: e-resize;
+}
+.datagrid-body .datagrid-editable {
+	padding: 0px;
+}
+.datagrid-body .datagrid-editable table {
+	width: 100%; height: 100%;
+}
+.datagrid-body .datagrid-editable td {
+	padding: 0px; border: 0px currentColor;
+}
+.datagrid-body .datagrid-editable .datagrid-editable-input {
+	padding: 3px 2px; border: 1px solid rgb(164, 190, 212); width: 100%; font-size: 12px;
+}
+.datebox .combo-arrow {
+	background: url("images/datebox_arrow.png") no-repeat center;
+}
+.datebox-calendar-inner {
+	height: 180px;
+}
+.datebox-button {
+	padding: 2px 5px; height: 18px; text-align: center; font-size: 12px; background-color: rgb(250, 250, 250);
+}
+.datebox-current {
+	color: rgb(136, 136, 136); font-weight: bold; text-decoration: none; float: left;
+}
+.datebox-close {
+	color: rgb(136, 136, 136); font-weight: bold; text-decoration: none; float: left;
+}
+.datebox-close {
+	float: right;
+}
+.datebox-ok {
+	color: rgb(136, 136, 136); font-weight: bold; text-decoration: none;
+}
+.datebox-button-hover {
+	color: rgb(164, 190, 212);
+}
+.dialog-content {
+	overflow: auto;
+}
+.dialog-toolbar {
+	background: rgb(250, 250, 250); padding: 2px 5px; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.dialog-tool-separator {
+	margin: 2px 1px; height: 24px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left;
+}
+.dialog-button {
+	background: rgb(250, 250, 250); padding: 5px; text-align: right; border-top-color: rgb(238, 238, 238); border-top-width: 1px; border-top-style: solid;
+}
+.dialog-button .l-btn {
+	margin-left: 5px;
+}
+.layout {
+	margin: 0px; padding: 0px; overflow: hidden; position: relative;
+}
+.layout-panel {
+	overflow: hidden; position: absolute;
+}
+.layout-panel-east {
+	z-index: 2;
+}
+.layout-panel-west {
+	z-index: 2;
+}
+.layout-panel-north {
+	z-index: 3;
+}
+.layout-panel-south {
+	z-index: 3;
+}
+.layout-button-up {
+	background: url("images/layout_button_up.gif") no-repeat;
+}
+.layout-button-down {
+	background: url("images/layout_button_down.gif") no-repeat;
+}
+.layout-button-left {
+	background: url("images/layout_button_left.gif") no-repeat;
+}
+.layout-button-right {
+	background: url("images/layout_button_right.gif") no-repeat;
+}
+.layout-expand {
+	background: rgb(210, 224, 242); padding: 0px; font-size: 1px; position: absolute; z-index: 1; cursor: pointer;
+}
+.layout-expand .panel-header {
+	border-bottom-width: 0px;
+}
+.layout-expand .panel-header .panel-tool {
+	top: 5px;
+}
+.layout-expand .panel-body {
+	overflow: hidden;
+}
+.layout-expand-over {
+	background: rgb(225, 240, 242);
+}
+.layout-body {
+	background: rgb(255, 255, 255); overflow: auto;
+}
+.layout-split-proxy-h {
+	background: rgb(204, 204, 204); width: 5px; font-size: 1px; display: none; position: absolute; z-index: 5; cursor: e-resize;
+}
+.layout-split-proxy-v {
+	background: rgb(204, 204, 204); height: 5px; font-size: 1px; display: none; position: absolute; z-index: 5; cursor: n-resize;
+}
+.layout-split-north {
+	border-bottom-color: rgb(210, 224, 242); border-bottom-width: 5px; border-bottom-style: solid;
+}
+.layout-split-south {
+	border-top-color: rgb(210, 224, 242); border-top-width: 5px; border-top-style: solid;
+}
+.layout-split-east {
+	border-left-color: rgb(210, 224, 242); border-left-width: 5px; border-left-style: solid;
+}
+.layout-split-west {
+	border-right-color: rgb(210, 224, 242); border-right-width: 5px; border-right-style: solid;
+}
+.layout-mask {
+	background: rgb(250, 250, 250); position: absolute; z-index: 4; opacity: 0.1;
+}
+a.l-btn {
+	background: url("images/button_a_bg.gif") no-repeat right top; height: 24px; color: rgb(68, 68, 68); padding-right: 18px; font-size: 12px; text-decoration: none; display: inline-block; cursor: pointer; -ms-zoom: 1;
+}
+a.l-btn2 {
+	background: url("images/button_a_bg.gif") no-repeat right top; height: 44px; color: rgb(68, 68, 68); padding-right: 18px; font-size: 12px; text-decoration: none; display: inline-block; cursor: pointer; -ms-zoom: 1;
+}
+a.l-btn-plain {
+	border: 1px solid transparent; padding-right: 5px; _border: 0px solid #efefef; _padding: 1px 6px 1px 1px;
+}
+a.l-btn-disabled {
+	color: rgb(204, 204, 204); cursor: default; opacity: 0.5;
+}
+a.l-btn span.l-btn-left {
+	background: url("images/button_span_bg.gif") no-repeat left top; padding: 4px 0px 4px 18px; height: 16px; line-height: 16px; display: inline-block;
+}
+a.l-btn-plain span.l-btn-left {
+	padding-left: 5px;
+}
+a.l-btn span span.l-btn-text {
+	padding: 0px; height: 16px; line-height: 16px; display: inline-block;
+}
+a.l-btn span span.l-btn-text2 {
+	padding: 0px; height: 40px; line-height: 40px; display: inline-block;
+}
+a.l-btn span span span.l-btn-empty {
+	padding: 0px; width: 16px; display: inline-block;
+}
+a.l-btn:hover {
+	background-position: right bottom;
+}
+a.l-btn:hover span.l-btn-left {
+	background-position: left bottom;
+}
+a.l-btn-plain:hover {
+	background: url("images/button_plain_hover.png") repeat-x left bottom; border: 1px solid rgb(126, 171, 205); -moz-border-radius: 3px; -webkit-border-radius: 3px; _padding: 0px 5px 0px 0px;
+}
+a.l-btn-disabled:hover {
+	background-position: right top;
+}
+a.l-btn-disabled:hover span.l-btn-left {
+	
+}
+a.l-btn .l-btn-focus {
+	outline: rgb(0, 0, 255) dotted thin;
+}
+.menu {
+	background: url("images/menu.gif") repeat-y rgb(240, 240, 240); margin: 0px; padding: 2px; border: 1px solid rgb(204, 204, 204); overflow: hidden; position: absolute;
+}
+.menu-item {
+	margin: 0px; padding: 0px; border: 1px solid transparent; height: 22px; line-height: 20px; overflow: hidden; font-size: 12px; position: relative; cursor: pointer; _border: 1px solid #f0f0f0;
+}
+.menu-text {
+	left: 28px; top: 0px; position: absolute;
+}
+.menu-icon {
+	left: 2px; top: 3px; width: 16px; height: 16px; position: absolute;
+}
+.menu-rightarrow {
+	background: url("images/menu_rightarrow.png") no-repeat; top: 7px; width: 4px; height: 7px; right: 5px; position: absolute;
+}
+.menu-sep {
+	background: url("images/menu_sep.png") repeat-x; margin: 3px 0px 3px 24px; line-height: 2px; font-size: 2px;
+}
+.menu-active {
+	background: rgb(250, 250, 250); border: 1px solid rgb(126, 171, 205); -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.menu-shadow {
+	background: rgb(221, 221, 221); position: absolute; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.menu-item-disabled {
+	cursor: default; opacity: 0.5;
+}
+.menu-active-disabled {
+	border-color: rgb(211, 211, 211);
+}
+.m-btn-downarrow {
+	background: url("images/menu_downarrow.png") no-repeat 4px; width: 12px; line-height: 14px; display: inline-block;
+}
+a.m-btn-active {
+	background-position: right bottom;
+}
+a.m-btn-active span.l-btn-left {
+	background-position: left bottom;
+}
+a.m-btn-plain-active {
+	border: 1px solid rgb(126, 171, 205); -moz-border-radius: 3px; -webkit-border-radius: 3px; _padding: 0px 5px 0px 0px;
+}
+.messager-body {
+	padding: 5px 10px;
+}
+.messager-button {
+	text-align: center; padding-top: 10px;
+}
+.messager-icon {
+	width: 47px; height: 35px; float: left;
+}
+.messager-error {
+	background: url("images/messager_error.gif") no-repeat left top;
+}
+.messager-info {
+	background: url("images/messager_info.gif") no-repeat left top;
+}
+.messager-question {
+	background: url("images/messager_question.gif") no-repeat left top;
+}
+.messager-warning {
+	background: url("images/messager_warning.gif") no-repeat left top;
+}
+.messager-input {
+	border: 1px solid rgb(204, 204, 204); width: 262px;
+}
+.messager-progress {
+	padding: 10px;
+}
+.messager-p-msg {
+	margin-bottom: 5px;
+}
+.pagination {
+	-ms-zoom: 1;
+}
+.pagination table {
+	height: 30px; float: left;
+}
+.pagination-btn-separator {
+	margin: 3px 1px; height: 24px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: left;
+}
+.pagination-num {
+	margin: 0px 2px; border: 1px solid rgb(204, 204, 204);
+}
+.pagination-page-list {
+	margin: 0px 6px;
+}
+.pagination-info {
+	padding-top: 8px; padding-right: 6px; font-size: 12px; float: right;
+}
+.pagination span {
+	font-size: 12px;
+}
+.pagination-first {
+	background: url("images/pagination_first.gif") no-repeat;
+}
+.pagination-prev {
+	background: url("images/pagination_prev.gif") no-repeat;
+}
+.pagination-next {
+	background: url("images/pagination_next.gif") no-repeat;
+}
+.pagination-last {
+	background: url("images/pagination_last.gif") no-repeat;
+}
+.pagination-load {
+	background: url("images/pagination_load.png") no-repeat;
+}
+.pagination-loading {
+	background: url("images/pagination_loading.gif") no-repeat;
+}
+.panel {
+	overflow: hidden; font-size: 12px;
+}
+.panel-header {
+	background: url("images/panel_title.png") repeat-x; padding: 5px; border: 1px solid rgb(153, 187, 232); color: rgb(21, 66, 139); line-height: 15px; font-size: 12px; font-weight: bold; position: relative;
+}
+.panel-title {
+	background: url("images/blank.gif") no-repeat;
+}
+.panel-header-noborder {
+	border-width: 0px 0px 1px; border-bottom-color: rgb(153, 187, 232); border-bottom-style: solid;
+}
+.panel-body {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(153, 187, 232); overflow: auto;
+}
+.panel-body-noheader {
+	border-top-width: 1px;
+}
+.panel-body-noborder {
+	border-width: 0px;
+}
+.panel-with-icon {
+	padding-left: 18px;
+}
+.panel-icon {
+	left: 5px; top: 4px; width: 16px; height: 16px; position: absolute;
+}
+.panel-tool {
+	top: 4px; right: 5px; position: absolute;
+}
+.panel-tool a {
+	width: 16px; height: 16px; margin-left: 2px; display: inline-block; opacity: 0.6;
+}
+.panel-tool a:hover {
+	opacity: 1;
+}
+.panel-tool-close {
+	background: url("images/panel_tools.gif") no-repeat -16px 0px;
+}
+.panel-tool-min {
+	background: url("images/panel_tools.gif") no-repeat 0px 0px;
+}
+.panel-tool-max {
+	background: url("images/panel_tools.gif") no-repeat 0px -16px;
+}
+.panel-tool-restore {
+	background: url("images/panel_tools.gif") no-repeat -16px -16px;
+}
+.panel-tool-collapse {
+	background: url("images/panel_tool_collapse.gif") no-repeat;
+}
+.panel-tool-expand {
+	background: url("images/panel_tool_expand.gif") no-repeat;
+}
+.panel-loading {
+	background: url("images/panel_loading.gif") no-repeat 10px 10px; padding: 11px 0px 10px 30px;
+}
+.panel-noscroll {
+	overflow: hidden;
+}
+.progressbar {
+	border-radius: 5px; border: 1px solid rgb(153, 187, 232); overflow: hidden;
+}
+.progressbar-text {
+	text-align: center; color: rgb(21, 66, 139); position: absolute;
+}
+.progressbar-value {
+	border-radius: 5px 0px 0px 5px; width: 0px; background-color: rgb(255, 141, 64);
+}
+.propertygrid .datagrid-view1 .datagrid-body {
+	background: rgb(224, 236, 255);
+}
+.propertygrid .datagrid-group {
+	background: rgb(224, 236, 255);
+}
+.propertygrid .datagrid-group {
+	height: 21px; overflow: hidden;
+}
+.propertygrid .datagrid-view1 .datagrid-body td {
+	border-color: rgb(224, 236, 255);
+}
+.propertygrid .datagrid-view1 .datagrid-row-over {
+	background: rgb(224, 236, 255);
+}
+.propertygrid .datagrid-view1 .datagrid-row-selected {
+	background: rgb(224, 236, 255);
+}
+.propertygrid .datagrid-group span {
+	color: rgb(65, 106, 163); padding-left: 4px; font-weight: bold;
+}
+.propertygrid .datagrid-row-collapse {
+	background-position: 3px;
+}
+.propertygrid .datagrid-row-expand {
+	background-position: 3px;
+}
+.searchbox {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; border: 1px solid rgb(164, 190, 212); font-size: 12px; display: inline-block; white-space: nowrap;
+}
+.searchbox-text {
+	padding: 0px; border: 0px currentColor; height: 20px; line-height: 20px; font-size: 12px; _height: 18px; _line-height: 18px;
+}
+.searchbox-button {
+	background: url("images/searchbox_button.png") no-repeat center; width: 18px; height: 20px; overflow: hidden; vertical-align: top; display: inline-block; cursor: pointer; opacity: 0.6;
+}
+.searchbox-button-hover {
+	opacity: 1;
+}
+.searchbox-prompt {
+	color: rgb(204, 204, 204); font-size: 12px;
+}
+.searchbox a.l-btn-plain {
+	padding: 0px 6px 0px 0px; border: 0px currentColor; height: 20px; vertical-align: top; background-color: rgb(224, 236, 249);
+}
+.searchbox a.l-btn .l-btn-left {
+	padding: 2px 0px 2px 2px;
+}
+.searchbox a.l-btn-plain:hover {
+	padding: 0px 6px 0px 0px; border: 0px currentColor; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+.searchbox a.m-btn-plain-active {
+	-moz-border-radius: 0px; -webkit-border-radius: 0px;
+}
+.slider {
+	
+}
+.slider-disabled {
+	opacity: 0.5;
+}
+.slider-h {
+	height: 22px;
+}
+.slider-v {
+	width: 22px;
+}
+.slider-inner {
+	background: rgb(250, 250, 250); border-radius: 3px; border: 1px solid rgb(153, 187, 232); top: 7px; height: 6px; position: relative;
+}
+.slider-handle {
+	background: url("images/slider_handle.png") no-repeat; top: -7px; width: 20px; height: 20px; margin-left: -10px; display: block; position: absolute;
+}
+.slider-tip {
+	top: -22px; line-height: 12px; display: inline-block; white-space: nowrap; position: absolute;
+}
+.slider-rule {
+	top: 15px; position: relative;
+}
+.slider-rule span {
+	height: 5px; font-size: 0px; border-left-color: rgb(153, 153, 153); border-left-width: 1px; border-left-style: solid; display: inline-block; position: absolute;
+}
+.slider-rulelabel {
+	top: 20px; position: relative;
+}
+.slider-rulelabel span {
+	color: rgb(153, 153, 153); display: inline-block; position: absolute;
+}
+.slider-v .slider-inner {
+	left: 7px; top: 0px; width: 6px; float: left;
+}
+.slider-v .slider-handle {
+	left: 3px; margin-top: -10px;
+}
+.slider-v .slider-tip {
+	left: -10px; margin-top: -6px;
+}
+.slider-v .slider-rule {
+	left: 16px; top: 0px; float: left;
+}
+.slider-v .slider-rule span {
+	width: 5px; border-top-color: rgb(153, 153, 153); border-left-color: currentColor; border-top-width: 1px; border-left-width: 0px; border-top-style: solid; border-left-style: none;
+}
+.slider-v .slider-rulelabel {
+	left: 23px; top: 0px; float: left;
+}
+.spinner {
+	margin: 0px; padding: 0px; border: 1px solid rgb(164, 190, 212); font-size: 12px; display: inline-block; white-space: nowrap;
+}
+.spinner-text {
+	padding: 0px; border: 0px currentColor; height: 20px; line-height: 20px; font-size: 12px; _height: 18px; _line-height: 18px;
+}
+.spinner-arrow {
+	margin: 0px; padding: 0px; vertical-align: top; display: inline-block;
+}
+.spinner-arrow-up {
+	background: url("images/spinner_arrow_up.gif") no-repeat 5px 2px rgb(224, 236, 249); width: 18px; height: 10px; font-size: 1px; display: block;
+}
+.spinner-arrow-down {
+	background: url("images/spinner_arrow_up.gif") no-repeat 5px 2px rgb(224, 236, 249); width: 18px; height: 10px; font-size: 1px; display: block;
+}
+.spinner-arrow-down {
+	background: url("images/spinner_arrow_down.gif") no-repeat 5px 3px rgb(224, 236, 249);
+}
+.spinner-arrow-hover {
+	background-color: rgb(236, 249, 249);
+}
+.s-btn-downarrow {
+	background: url("images/menu_downarrow.png") no-repeat 9px; width: 16px; line-height: 14px; display: inline-block;
+}
+a.s-btn-active {
+	background-position: right bottom;
+}
+a.s-btn-active span.l-btn-left {
+	background-position: left bottom;
+}
+a.s-btn-active .s-btn-downarrow {
+	background: url("images/menu_split_downarrow.png") no-repeat 4px -19px;
+}
+a.l-btn:hover .s-btn-downarrow {
+	background: url("images/menu_split_downarrow.png") no-repeat 4px -19px;
+}
+a.s-btn-plain-active {
+	border: 1px solid rgb(126, 171, 205); -moz-border-radius: 3px; -webkit-border-radius: 3px; _padding: 0px 5px 0px 0px;
+}
+a.s-btn-plain-active .s-btn-downarrow {
+	background: url("images/menu_split_downarrow.png") no-repeat 4px -19px;
+}
+.tabs-container {
+	background: rgb(255, 255, 255); overflow: hidden;
+}
+.tabs-header {
+	background: rgb(224, 236, 255); border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(141, 178, 227) rgb(141, 178, 227) currentColor; padding: 2px 0px 0px; overflow: hidden; position: relative;
+}
+.tabs-header-noborder {
+	border: 0px currentColor;
+}
+.tabs-header-plain {
+	border: 0px currentColor;
+}
+.tabs-scroller-left {
+	background: url("images/tabs_leftarrow.png") no-repeat 1px 5px rgb(224, 236, 255); border: 1px solid rgb(141, 178, 227); left: 0px; top: -1px; width: 18px; height: 28px !important; font-size: 1px; display: none; position: absolute; cursor: pointer;
+}
+.tabs-scroller-right {
+	background: url("images/tabs_rightarrow.png") no-repeat 2px 5px rgb(224, 236, 255); border: 1px solid rgb(141, 178, 227); top: -1px; width: 18px; height: 28px !important; right: 0px; font-size: 1px; display: none; position: absolute; cursor: pointer;
+}
+.tabs-tool {
+	background: rgb(224, 236, 255); padding: 1px; border: 1px solid rgb(141, 178, 227); top: -1px; overflow: hidden; position: absolute;
+}
+.tabs-header-plain .tabs-scroller-left {
+	top: 2px; height: 25px !important;
+}
+.tabs-header-plain .tabs-scroller-right {
+	top: 2px; height: 25px !important;
+}
+.tabs-header-plain .tabs-tool {
+	top: 2px; padding-top: 0px;
+}
+.tabs-scroller-over {
+	background-color: rgb(236, 249, 249);
+}
+.tabs-wrap {
+	margin: 0px; padding: 0px; left: 0px; width: 100%; overflow: hidden; position: relative;
+}
+.tabs-scrolling {
+	margin-right: 18px; margin-left: 18px;
+}
+.tabs {
+	margin: 0px; padding: 0px 0px 0px 4px; width: 5000px; height: 26px; font-size: 12px; border-bottom-color: rgb(141, 178, 227); border-bottom-width: 1px; border-bottom-style: solid; list-style-type: none;
+}
+.tabs li {
+	padding: 0px; border: 1px solid rgb(141, 178, 227); margin-right: 4px; margin-bottom: -1px; float: left; display: inline-block; position: relative; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px;
+}
+.tabs li a.tabs-inner {
+	background: url("images/tabs_enabled.png") repeat-x left top; margin: 0px; padding: 0px 10px; height: 25px; text-align: center; color: rgb(65, 106, 163); line-height: 25px; text-decoration: none; display: inline-block; white-space: nowrap; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px;
+}
+.tabs li a.tabs-inner:hover {
+	background: url("images/tabs_active.png") repeat-x left bottom;
+}
+.tabs li.tabs-selected {
+	border-width: 1px; border-style: solid; border-color: rgb(141, 178, 227) rgb(141, 178, 227) rgb(255, 255, 255);
+}
+.tabs li.tabs-selected a.tabs-inner {
+	background: url("images/tabs_active.png") repeat-x left bottom rgb(126, 171, 205); color: rgb(65, 106, 163); font-weight: bold;
+}
+.tabs li.tabs-selected a.tabs-inner:hover {
+	cursor: default; pointer: default;
+}
+.tabs-p-tool {
+	top: 7px; right: 16px; display: block; position: absolute;
+}
+.tabs-p-tool a {
+	width: 12px; height: 12px; font-size: 1px; display: inline-block; opacity: 0.6;
+}
+.tabs-p-tool a:hover {
+	cursor: pointer; opacity: 1; background-color: rgb(141, 178, 227);
+}
+.tabs-with-icon {
+	padding-left: 18px;
+}
+.tabs-icon {
+	left: 10px; top: 5px; width: 16px; height: 16px; position: absolute;
+}
+.tabs-closable {
+	padding-right: 8px;
+}
+.tabs li a.tabs-close {
+	background: url("images/tabs_close.gif") no-repeat 2px 2px; padding: 0px; top: 7px; width: 11px; height: 11px; right: 5px; font-size: 1px; display: block; position: absolute; opacity: 0.6;
+}
+.tabs li a.tabs-close:hover {
+	cursor: pointer; opacity: 1; background-color: rgb(141, 178, 227);
+}
+.tabs-panels {
+	border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(141, 178, 227) rgb(141, 178, 227); margin: 0px; padding: 0px; overflow: hidden;
+}
+.tabs-panels-noborder {
+	border: 0px currentColor;
+}
+.tree {
+	margin: 0px; padding: 0px; font-size: 12px; list-style-type: none;
+}
+.tree li {
+	white-space: nowrap;
+}
+.tree li ul {
+	margin: 0px; padding: 0px; list-style-type: none;
+}
+.tree-node {
+	height: 18px; white-space: nowrap; cursor: pointer;
+}
+.tree-indent {
+	width: 16px; height: 18px; vertical-align: middle; display: inline-block;
+}
+.tree-hit {
+	cursor: pointer;
+}
+.tree-expanded {
+	background: url("images/tree_arrows.gif") no-repeat -18px 0px; width: 16px; height: 18px; vertical-align: middle; display: inline-block;
+}
+.tree-expanded-hover {
+	background: url("images/tree_arrows.gif") no-repeat -50px 0px;
+}
+.tree-collapsed {
+	background: url("images/tree_arrows.gif") no-repeat 0px 0px; width: 16px; height: 18px; vertical-align: middle; display: inline-block;
+}
+.tree-collapsed-hover {
+	background: url("images/tree_arrows.gif") no-repeat -32px 0px;
+}
+.tree-lines .tree-expanded {
+	background: url("images/tree_elbow.png") no-repeat -36px -54px;
+}
+.tree-lines .tree-collapsed {
+	background: url("images/tree_elbow.png") no-repeat 0px -36px;
+}
+.tree-lines .tree-node-last .tree-expanded {
+	background: url("images/tree_elbow.png") no-repeat -18px 0px;
+}
+.tree-lines .tree-node-last .tree-collapsed {
+	background: url("images/tree_elbow.png") no-repeat -36px -36px;
+}
+.tree-lines .tree-root-first .tree-expanded {
+	background: url("images/tree_elbow.png") no-repeat -18px -54px;
+}
+.tree-lines .tree-root-first .tree-collapsed {
+	background: url("images/tree_elbow.png") no-repeat -18px -36px;
+}
+.tree-lines .tree-root-one .tree-expanded {
+	background: url("images/tree_elbow.png") no-repeat 0px -18px;
+}
+.tree-lines .tree-root-one .tree-collapsed {
+	background: url("images/tree_elbow.png") no-repeat 0px -72px;
+}
+.tree-line {
+	background: url("images/tree_elbow.png") no-repeat 0px -54px;
+}
+.tree-join {
+	background: url("images/tree_elbow.png") no-repeat -18px -18px;
+}
+.tree-joinbottom {
+	background: url("images/tree_elbow.png") no-repeat 0px 0px;
+}
+.tree-folder {
+	background: url("images/tree_folder.gif") no-repeat; width: 16px; height: 18px; vertical-align: middle; display: inline-block;
+}
+.tree-folder-open {
+	background: url("images/tree_folder_open.gif") no-repeat;
+}
+.tree-file {
+	background: url("images/tree_file.gif") no-repeat; width: 16px; height: 18px; vertical-align: middle; display: inline-block;
+}
+.tree-loading {
+	background: url("images/tree_loading.gif") no-repeat;
+}
+.tree-title {
+	padding: 1px 2px; text-decoration: none; vertical-align: middle; display: inline-block; white-space: nowrap;
+}
+.tree-node-hover {
+	background: rgb(250, 250, 250);
+}
+.tree-node-selected {
+	background: rgb(251, 236, 136);
+}
+.tree-checkbox {
+	width: 16px; height: 18px; vertical-align: middle; display: inline-block;
+}
+.tree-checkbox0 {
+	background: url("images/tree_checkbox_0.gif") no-repeat;
+}
+.tree-checkbox1 {
+	background: url("images/tree_checkbox_1.gif") no-repeat;
+}
+.tree-checkbox2 {
+	background: url("images/tree_checkbox_2.gif") no-repeat;
+}
+.tree-node-proxy {
+	background: rgb(250, 250, 250); padding: 1px 2px 1px 18px; border: 1px solid rgb(204, 204, 204); font-size: 12px; z-index: 9900000;
+}
+.tree-dnd-yes {
+	background: url("images/tree_dnd_yes.png") no-repeat 0px;
+}
+.tree-dnd-no {
+	background: url("images/tree_dnd_no.png") no-repeat 0px;
+}
+.tree-node-top {
+	border-top-color: red; border-top-width: 1px; border-top-style: dotted;
+}
+.tree-node-bottom {
+	border-bottom-color: red; border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.tree-node-append .tree-title {
+	border: 1px dotted red;
+}
+.tree-editor {
+	border: 1px solid rgb(204, 204, 204); top: 0px; width: 80px; line-height: 16px; font-size: 12px; position: absolute;
+}
+.validatebox-invalid {
+	background: url("images/validatebox_warning.png") no-repeat right 1px rgb(255, 255, 238);
+}
+.validatebox-tip {
+	width: 200px; height: auto; display: none; position: absolute; z-index: 9900000;
+}
+.validatebox-tip-content {
+	background: rgb(255, 255, 204); padding: 3px 5px; border: 1px solid rgb(204, 153, 51); left: 10px; top: 0px; font-size: 12px; display: inline-block; position: absolute; z-index: 9900001;
+}
+.validatebox-tip-pointer {
+	background: url("images/validatebox_pointer.gif") no-repeat left top; left: 1px; top: 0px; width: 10px; height: 19px; display: inline-block; position: absolute; z-index: 9900002;
+}
+.window {
+	background: url("images/panel_title.png"); padding: 5px; border-radius: 5px; border: 1px solid rgb(153, 187, 232); overflow: hidden; font-size: 12px; position: absolute; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+}
+.window-shadow {
+	background: rgb(221, 221, 221); border-radius: 5px; position: absolute; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+.window .window-header {
+	padding: 2px 0px 4px;
+}
+.window .window-body {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: solid; border-color: rgb(153, 187, 232);
+}
+.window .window-body-noheader {
+	border-top-width: 1px;
+}
+.window .window-header .panel-icon {
+	left: 1px; top: 1px;
+}
+.window .window-header .panel-with-icon {
+	padding-left: 18px;
+}
+.window .window-header .panel-tool {
+	top: 0px; right: 1px;
+}
+.window-proxy {
+	border: 1px dashed rgb(21, 66, 139); overflow: hidden; position: absolute;
+}
+.window-proxy-mask {
+	background: rgb(250, 250, 250); position: absolute; opacity: 0.1;
+}
+.window-mask {
+	background: rgb(204, 204, 204); left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; font-size: 1px; position: absolute; opacity: 0.4;
+}

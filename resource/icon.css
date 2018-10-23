@@ -1,0 +1,126 @@
+.icon-blank {
+	background: url("icons/blank.gif") no-repeat;
+}
+.icon-add {
+	background: url("icons/edit_add.png") no-repeat;
+}
+.icon2-edit {
+	background: url("icons/pencil.png") no-repeat;
+}
+.icon-remove {
+	background: url("icons/edit_remove.png") no-repeat;
+}
+.icon-save {
+	background: url("icons/filesave.png") no-repeat;
+}
+.icon-cut {
+	background: url("icons/cut.png") no-repeat;
+}
+.icon-ok {
+	background: url("icons/ok.png") no-repeat;
+}
+.icon-no {
+	background: url("icons/no.png") no-repeat;
+}
+.icon-cancel {
+	background: url("icons/cancel.png") no-repeat;
+}
+.icon-reload {
+	background: url("icons/reload.png") no-repeat;
+}
+.icon-search {
+	background: url("icons/search.png") no-repeat;
+}
+.icon-print {
+	background: url("icons/print.png") no-repeat;
+}
+.icon-help {
+	background: url("icons/help.png") no-repeat;
+}
+.icon-undo {
+	background: url("icons/undo.png") no-repeat;
+}
+.icon-redo {
+	background: url("icons/redo.png") no-repeat;
+}
+.icon-back {
+	background: url("icons/back.png") no-repeat;
+}
+.icon-sum {
+	background: url("icons/sum.png") no-repeat;
+}
+.icon-tip {
+	background: url("icons/tip.png") no-repeat;
+}
+.icon-mini-add {
+	background: url("icons/mini_add.png") no-repeat 2px 2px;
+}
+.icon-mini-edit {
+	background: url("icons/mini_edit.png") no-repeat 2px 2px;
+}
+.icon-mini-refresh {
+	background: url("icons/mini_refresh.png") no-repeat 3px 2px;
+}
+.icon-excel {
+	background: url("icons/excel.png") no-repeat;
+}
+.icon-up {
+	background: url("icons/up.png") no-repeat;
+}
+.icon-down {
+	background: url("icons/down.png") no-repeat;
+}
+.icon-user-delete {
+	background: url("icons/trash.png") no-repeat;
+}
+.icon-dep {
+	background: url("icons/department.png") no-repeat;
+}
+.icon-user {
+	background: url("icons/user.png") no-repeat;
+}
+.icon-prev {
+	background: url("icons/prev.png") no-repeat;
+}
+.icon-next {
+	background: url("icons/next.png") no-repeat;
+}
+.icon2-signin {
+	background: url("icons/signin.png") no-repeat;
+}
+.icon2-signout {
+	background: url("icons/signout2.png") no-repeat;
+}
+.icon2-external-call {
+	background: url("icons/external_call.png") no-repeat;
+}
+.icon2-internal-call {
+	background: url("icons/internal_call.png") no-repeat;
+}
+.icon2-hangup {
+	background: url("icons/hangup.png") no-repeat;
+}
+.icon2-pause {
+	background: url("icons/pause.png") no-repeat;
+}
+.icon2-play {
+	background: url("icons/play.png") no-repeat;
+}
+.icon2-free {
+	background: url("icons/free.png") no-repeat;
+}
+.icon2-busy {
+	background: url("icons/busy.png") no-repeat;
+}
+.icon2-transfer {
+	background: url("icons/transfer.png") no-repeat;
+}
+.icon2-threeway {
+	background: url("icons/threeway.png") no-repeat;
+}
+.icon2-grade {
+	background: url("icons/grade.png") no-repeat;
+}
+.icon2-monitor {
+	background: url("icons/monitor.png") no-repeat;
+}
