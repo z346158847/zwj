@@ -34,7 +34,7 @@ export default {
     sNav
   },
   created () {
-    this.$axios.get('/api/seller').then((data) => {
+    this.$axios.get('./api/seller').then((data) => {
       if (data.data.errno === ERR_OK) {
         this.seller = data.data.data
       }

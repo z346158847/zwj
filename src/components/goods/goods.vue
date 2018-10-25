@@ -76,15 +76,19 @@ export default {
     this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee']
   },
   computed: {
-    currentIndex () {
-      for (let i = 0; i < this.listHeight.length; i++) {
-        let height1 = this.listHeight[i]
-        let height2 = this.listHeight[i + 1]
-        if (this.scrollY >= height1 && this.scrollY < height2) {
-          return i
+    currentIndex: {
+      get () {
+        for (let i = 0; i < this.listHeight.length; i++) {
+          let height1 = this.listHeight[i]
+          let height2 = this.listHeight[i + 1]
+          if (this.scrollY >= height1 && this.scrollY < height2) {
+            return i
+          }
         }
+        return 0
+      },
+      set () {
       }
-      return 0
     },
     selectFoods () {
       let foods = []
